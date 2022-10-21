@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+body{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  outline: none;
+  font-family: "Calibri", sans-serif;
+  text-decoration: none;
+}
+
+h2{
+  background-color: white;
+}
+
+.grid{
+  margin-left: .5px;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  display: grid;
+}
+
+.container{
+  margin: 1em auto;
+  width: 100%;
+}
