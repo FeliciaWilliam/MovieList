@@ -1,2 +1,2 @@
 NOTE:
-File yang memiliki kode redux ada pada App_alt.js.
+File yang memiliki kode redux ada pada App_alt.js pad folder src.
