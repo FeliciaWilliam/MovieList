@@ -5,8 +5,6 @@ import MovieDesc from './MovieDesc';
 import Profil from "./components/Profil";
 import { Navbar,Container,Nav,Form, FormControl,Button } from 'react-bootstrap';
 import React,{useState,useEffect} from 'react';
-import TombolLogin from "./components/TombolLogin";
-import TombolLogout from "./components/TombolLogout";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const API_SEARCH="https://api.themoviedb.org/3/search/movie?api_key=734ff64c82ca39a22e8f0492ae9c75f6&query";
@@ -77,9 +75,6 @@ function App() {
               {!error && isLoading && <p>Loading...</p>}
               {!error && !isLoading && (
                 <>
-                  <TombolLogin />
-                  <TombolLogout />
-                  <Profil />
                 </>
               )}
     
